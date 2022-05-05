@@ -4,12 +4,16 @@
 
 export const environment = {
   production: false,
+
   weatherApiBaseUrl: 'https://community-open-weather-map.p.rapidapi.com/weather',
   XRapidAPIHostHeaderName: 'X-RapidAPI-Host',
   XRapidAPIHostHeaderValue: 'community-open-weather-map.p.rapidapi.com',
   XRapidAPIKeyHeaderName: 'X-RapidAPI-Key',
-  XRapidAPIKeyHeaderValue: '232646f06amsh4fb20b3b949523dp1dc214jsnbc6452bd7262'
+  XRapidAPIKeyHeaderValue: '232646f06amsh4fb20b3b949523dp1dc214jsnbc6452bd7262',
+
+  
 };
+
 
 /*
  * For easier debugging in development mode, you can import the following file
